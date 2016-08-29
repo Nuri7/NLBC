@@ -110,7 +110,7 @@ $(document).ready(function () {
     var mapCanvas = document.getElementById('map-canvas');
     var mapOptions = {
         center: new google.maps.LatLng(52.36359, 4.87443),
-        zoom: 16,
+        zoom: 15,
         scrollwheel: false,
         mapTypeId: google.maps.MapTypeId.ROADMAP
     };
