@@ -109,7 +109,7 @@ $(document).ready(function () {
 
     var mapCanvas = document.getElementById('map-canvas');
     var mapOptions = {
-        center: new google.maps.LatLng(40.565934, -122.388118),
+        center: new google.maps.LatLng(52.36359, 4.87443),
         zoom: 16,
         scrollwheel: false,
         mapTypeId: google.maps.MapTypeId.ROADMAP
@@ -117,8 +117,8 @@ $(document).ready(function () {
     var map = new google.maps.Map(mapCanvas, mapOptions)
 
     var marker = new google.maps.Marker({
-            position: new google.maps.LatLng(40.565234, -122.388118),
-            title:"Boots4 Office"
+            position: new google.maps.LatLng(52.36359, 4.87443),
+            title:"NLBC office"
         });
 
         // To add the marker to the map, call setMap();
